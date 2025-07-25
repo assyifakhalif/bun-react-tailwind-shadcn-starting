@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Counter } from "@/components/shared/Counter";
+import { Counter } from "../src/components/ui/shared/Counter";
 import { Card, CardContent } from "@/components/ui/card";
 import logo from "@/public/images/logo.svg";
 import reactLogo from "@/public/images/react.svg";
