@@ -22,10 +22,18 @@ export function App() {
         <CardContent className="pt-6">
           <h1 className="text-4xl font-bold mb-4">Tugas 6 - Counter App</h1>
 
-          {/* Tampilkan Komponen Counter */}
-          <Counter count={count} onIncrement={increment} onDecrement={decrement} />
+          {/* Komponen Counter menerima props dari App */}
+          <Counter
+            count={count}
+            onIncrement={increment}
+            onDecrement={decrement}
+          />
 
-          <button onClick={reset} className="mt-4 px-6 py-2 bg-blue-500 text-white rounded">
+          {/* Tombol Reset */}
+          <button
+            onClick={reset}
+            className="mt-4 px-6 py-2 bg-blue-500 text-white rounded"
+          >
             Reset Counter
           </button>
         </CardContent>
